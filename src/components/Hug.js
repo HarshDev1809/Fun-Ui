@@ -1,14 +1,16 @@
-import React from 'react';
-// import "../style.css"
+import React from "react";
+import defaultStyle from "../utils/defaultStyle";
 
-function Hug({style}){
-    const defaultStyle = {
-        fontSize: "1rem",
-        color: "grey"
-    }
-    const finalStyle = {...defaultStyle, ...style}
-
-    return <span style={finalStyle}>\(o_o)/</span>
+function Hug({ variant, style }) {
+  if(!variant){
+    variant = 1;
+  }
+  const finalStyle = { ...defaultStyle, ...style };
+  return (
+    <span className="hug-emoticons" style={finalStyle}>
+      \(o_o)/
+    </span>
+  );
 }
 
 export default Hug;
