@@ -1,0 +1,38 @@
+{
+  "name": "@moj-ui/fun-ui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshDev1809/Fun-Ui.git"
+  },
+  "author": "Harsh Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshDev1809/Fun-Ui/issues"
+  },
+  "homepage": "https://github.com/HarshDev1809/Fun-Ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
