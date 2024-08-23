@@ -1,7 +1,7 @@
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 
 export default {
   input: 'src/index.js',
@@ -19,12 +19,15 @@ export default {
       sourcemap: true
     }
   ],
+  external: ['react', 'react-dom'],
   plugins: [
     peerDepsExternal(),
     resolve(),
     babel({
       exclude: 'node_modules/**',
-      presets: ['@babel/preset-react']
+      babelHelpers: 'runtime',
+      presets: ['@babel/preset-env', '@babel/preset-react'],
+      plugins: ['@babel/plugin-transform-runtime']
     }),
     commonjs()
   ]
