@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import loader from '../../utils/loader.constants';
 
 function Loader(){
 
@@ -48,6 +49,9 @@ function Loader(){
 
     const arr = ["(0_0 )","(0_0)","( 0_0)"]
     const [data,setData] = useState("(0_0)")
+
+    const arrData = loader[4];
+    console.log(arrData);
   
     const showLoader = ()=>{
       let value = 0;
