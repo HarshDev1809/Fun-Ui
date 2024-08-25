@@ -11,7 +11,7 @@ const loaderDefaultStyle = {
 }
 
 const loaderCaptionDefaultStyle = {
-    fontSize : "0.5em",
+    fontSize : "0.35em",
     color : "grey"
 }
 
