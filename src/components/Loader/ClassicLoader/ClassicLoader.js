@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import { classicLoader } from "../../../utils/constants/loader";
 import { loaderDefaultStyle } from "../../../utils/constants/defaultStyle";
 import { invalidVariant } from "../../../utils/helperFunctions/errors";
+import { loaderCaptionDefaultStyle } from "../../../utils/constants/defaultStyle";
 
-function ClassicLoader({ style, time, variant }) {
+function ClassicLoader({ style, time, variant,caption, captionStyle }) {
   if (!variant) {
     variant = 1;
   }
@@ -17,6 +18,7 @@ function ClassicLoader({ style, time, variant }) {
   const finalStyle = { ...loaderDefaultStyle, ...style };
   const loaderArray = classicLoader[variant];
   const [loader, setLoader] = useState(loaderArray[0]);
+  const captionFinalStyle = {...loaderCaptionDefaultStyle, ...captionStyle}
 
   const showLoader = () => {
     let value = 0;
@@ -45,6 +47,7 @@ function ClassicLoader({ style, time, variant }) {
   return (
     <div className="classic-loader" style={finalStyle}>
       {loader}
+      <span style={captionFinalStyle}>{caption}</span>
     </div>
   );
 }

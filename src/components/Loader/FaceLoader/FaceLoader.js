@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { faceLoader } from "../../../utils/constants/loader";
 import { loaderDefaultStyle } from "../../../utils/constants/defaultStyle";
 import { invalidVariant } from "../../../utils/helperFunctions/errors";
+import { loaderCaptionDefaultStyle } from "../../../utils/constants/defaultStyle";
 
-function FaceLoader({ variant, style, time }) {
+function FaceLoader({ variant, style, time,caption, captionStyle }) {
   if (!time) {
     time = 2000;
   }
@@ -17,6 +18,7 @@ function FaceLoader({ variant, style, time }) {
   const finalStyle = { ...loaderDefaultStyle, ...style };
   const loaderArray = faceLoader[variant];
   const [loader, setLoader] = useState(loaderArray[0]);
+  const captionFinalStyle = {...loaderCaptionDefaultStyle, ...captionStyle}
 
   const showLoader = () => {
     let value = 0;
@@ -45,6 +47,7 @@ function FaceLoader({ variant, style, time }) {
   return (
     <div className="face-loader" style={finalStyle}>
       {loader}
+      <span style={captionFinalStyle}>{caption}</span>
     </div>
   );
 }

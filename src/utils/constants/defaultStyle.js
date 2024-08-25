@@ -6,7 +6,13 @@ const emoticonDefaultStyle = {
 const loaderDefaultStyle = {
     fontSize : "4rem",
     color : "grey",
-    display : "inline",
+    display : "inline-flex",
+    flexDirection: "column"
 }
 
-export {emoticonDefaultStyle, loaderDefaultStyle}
+const loaderCaptionDefaultStyle = {
+    fontSize : "0.5em",
+    color : "grey"
+}
+
+export {emoticonDefaultStyle, loaderDefaultStyle, loaderCaptionDefaultStyle}
