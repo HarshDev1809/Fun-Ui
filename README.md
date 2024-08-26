@@ -91,6 +91,8 @@ export default Demo;
 You can use in built attritbutes to customise loader according to your personal touch.
 ##### Attributes:
 1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want.
+
+
    
    eg:
    
@@ -108,9 +110,6 @@ You can use in built attritbutes to customise loader according to your personal 
   ```
   Output:
 ![Face Loader gif](assets/gifs/loaders/FaceLoader/FacLoaderUsage1.gif)
-
-
-   
 
 #### - Classic Loader:
 Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader) to explore more.
