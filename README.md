@@ -8,7 +8,7 @@
 - [Installation](#installation)
 - [Usage Demo](#usage-demo)
 - [Components](#components)
-  - [Loader](#loader)
+  - [Loader](#1.-loader:)
     - [Face Loader](#face-loader)
     - [Classic Loader](#classic-loader)
     - [Sand Watch Loader](#sand-watch-loader)
@@ -54,7 +54,7 @@ export default App;
 
 ## Components
 
-### Loader
+### 1. Loader:
 A collection of fun Loaders built using emoticons which adds an enjoyable touch to your React application.
 #### - Face Loader:
 Collections of exciting Loaders consisting of face emoticons. [Click here](src/components/Loader/FaceLoader) to explore more.
