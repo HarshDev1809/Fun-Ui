@@ -5,9 +5,9 @@
 ## Table of Contents
 
 - [Features](#features)
-- [Installtion](#installation)
+- [Installation](#installation)
 - [Usage Demo](#usage-demo)
-- [Compononts](#components)
+- [Components](#components)
   - [Loader](#loader)
     - [Face Loader](#face-loader)
     - [Classic Loader](#classic-loader)
