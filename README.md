@@ -30,4 +30,6 @@ export default App;
 ![Face Loader example](assets/gifs/loaders/FaceLoader/FaceLoader1.gif)
 
 ## Components
-1. ###Loader:###
+
+1. ### Loader: ### 
+2. ### Emoticons: ###
