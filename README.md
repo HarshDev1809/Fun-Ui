@@ -58,7 +58,8 @@ export default App;
 A collection of fun Loaders built using emoticons which adds an enjoyable touch to your React application.
 #### - Face Loader:
 Collections of exciting Loaders consisting of face emoticons.
-##### Usage : 
+
+##### Usage: 
 To use Face Loader component, you can import it from `@moj-ui/fun-ui` and use it in your app. 
 
 You can import `Face Loader` from `@moj-ui/fun-ui` as: 
@@ -84,6 +85,30 @@ export default Demo;
 ````
 **Output:**
 ![Face Loader Basic output gif](assets/gifs/loaders/FaceLoader/FaceLoaderBasic.gif)
+
+##### Customisation:
+You can use in built attritbutes to customise loader according to your personal touch.
+##### Attributes:
+1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want.
+   eg:
+   ```javascript
+   import { FaceLoader } from '@moj-ui/fun-ui';
+
+function Demo() {
+  return (
+    <div className="demo" variant={20}>
+      <FaceLoader />
+    </div>
+  );
+}
+
+export default Demo;
+```
+Output:
+![Face Loader gif](assets/gifs/loaders/FaceLoader/FacLoaderUsage1.gif)
+
+
+   
 
 #### - Classic Loader:
 Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader) to explore more.
