@@ -1,11 +1,29 @@
 # Fun UI
 
-`Fun Ui` is a React Component Library mainly focused on adding a fun touch to your React application by using interactive component made using emoticons.
+`Fun UI` is a lightweight React Component Library designed to bring a playful and engaging experience to your web applications. With a focus on creative and fun emoticon-based components, `Fun UI` allows developers to add a personal touch to their interfaces effortlessly. Perfect for projects that aim to stand out with unique and interactive elements, `Fun UI` is both easy to use and highly customizable.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installtion](#installation)
+- [Usage Demo](#usage-demo)
+- [Compononts](#components)
+  - [Loader](#loader)
+    - [Face Loader](#face-loader)
+    - [Classic Loader](#classic-loader)
+    - [Sand Watch Loader](#sand-watch-loader)
+  - [Emoticons](#emoticons)
+    - [Classic Emoticons](#classic-emoticons)
+    - [Face Emoticons](#face-emoticons)
+-[License](#license)
+-[Contributing](#contributing)
+
 
 ## Features
-- **Personal Touch:** Add a Personal and Fun Touch to your website using fun emoticons from a range of various emoticons.
-- **Highly Customizable:** Components are hightly customizable to you personal touch.
-- **Easy-to-use:** Easy-to-use Components to add seemlessly in your project.
+- **Playful Emoticons:** Inject fun and personality into your website with a wide range of emoticon-based components.
+- **Customizable:** Tailor the components to match your brand’s style and preferences.
+- **Seamless Integration:** Easily integrate components into your project with minimal setup.
+
 
 ## Installation
 To install the package, use npm:
@@ -13,7 +31,7 @@ To install the package, use npm:
 npm install @moj-ui/fun-ui
 ```
 
-## Usage
+## Usage Demo
 
 A basic example of `<FaceLoader />` from `@moj-ui/fun-ui`.
 
