@@ -8,8 +8,8 @@
 - [Installation](#installation)
 - [Usage Demo](#usage-demo)
 - [Components](#components)
-  - [Loader]
-    - [Face Loader]
+  - [Loader](#loader)
+    - [Face Loader](#face-loader)
     - [Classic Loader](#classic-loader)
     - [Sand Watch Loader](#sand-watch-loader)
   - [Emoticons](#emoticons)
