@@ -6,6 +6,7 @@
 To install the package, use npm:
 ```bash
 npm install @moj-ui/fun-ui
+```
 
 ## Usage
 
@@ -23,6 +24,7 @@ function App() {
 }
 
 export default App;
+```
 
 ### Output :
 ![Face Loader example](assets/gifs/loaders/FaceLoader/FaceLoader1.gif)
