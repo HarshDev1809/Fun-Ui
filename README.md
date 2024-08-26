@@ -64,6 +64,7 @@ To use Face Loader component, you can import it from `@moj-ui/fun-ui` and use it
 
 You can import `Face Loader` from `@moj-ui/fun-ui` as: 
 
+
 ```javascript
 import { FaceLoader } from '@moj-ui/fun-ui';
 ```
@@ -90,21 +91,22 @@ export default Demo;
 You can use in built attritbutes to customise loader according to your personal touch.
 ##### Attributes:
 1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want.
+   
    eg:
+   
    ```javascript
    import { FaceLoader } from '@moj-ui/fun-ui';
 
-function Demo() {
-  return (
-    <div className="demo" variant={20}>
-      <FaceLoader />
-    </div>
-  );
-}
-
-export default Demo;
-```
-Output:
+   function Demo() {
+     return (
+      <div className="demo" variant={20}>
+        <FaceLoader />
+      </div>
+      );
+    }
+   export default Demo;
+  ```
+  Output:
 ![Face Loader gif](assets/gifs/loaders/FaceLoader/FacLoaderUsage1.gif)
 
 
