@@ -1,5 +1,7 @@
-# @moj-ui/fun-ui
+# Fun UI
 
-Here’s a quick demo:
+Fun Ui is a React Component Library mainly focused on adding a fun touch to your React application by using interactive component made using emoticons.
 
-![Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzh3cnhzZnI3dDd2cTZvbHRkdjJxZXB6OG5weDc1eWk2MDE5dXVpNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HOaA4rTqtileDEUlpO/giphy.gif)
+## Installation
+```bash
+npm install @moj-ui/fun-ui
