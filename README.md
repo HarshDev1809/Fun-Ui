@@ -54,8 +54,8 @@ export default App;
 
 ## Components
 
-### 1. Loader: {#loader}
-A collection of fun Loaders built using emoticons which adds an enjoyable touch to your React application.
+### 1. Loader:{#loader}
+  A collection of fun Loaders built using emoticons which adds an enjoyable touch to your React application.
 #### - Face Loader:
 Collections of exciting Loaders consisting of face emoticons. [Click here](src/components/Loader/FaceLoader) to explore more.
 #### - Classic Loader:
