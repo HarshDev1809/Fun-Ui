@@ -2,6 +2,11 @@
 
 `Fun Ui` is a React Component Library mainly focused on adding a fun touch to your React application by using interactive component made using emoticons.
 
+## Features
+- **Personal Touch:** Add a Personal and Fun Touch to your website using fun emoticons from a range of various emoticons.
+- **Highly Customizable:** Components are hightly customizable to you personal touch.
+- **Easy-to-use:** Easy-to-use Components to add seemlessly in your project.
+
 ## Installation
 To install the package, use npm:
 ```bash
@@ -32,7 +37,9 @@ export default App;
 ## Components
 
 1. **Loader:** A collection of fun Loaders built using emoticons which adds an enjoyable touch to your React application.
-   - **Face Loader:** Collections of exciting Loaders consisting of face emoticons. [CLick here](src/components/Loader/FaceLoader/README.md) to explore more.
-   - **Classic Loader:** Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader/README.md) to explore more.
-   - **Sand Watch Loader:** Add an emoticon Sand Watch as a loader to add an unique touch to your loading screen. [Click here](src/components/Loader/GlassWatchLoader/README.md) to know more.
-2. **Emoticons:** Collections of Old-School & Classic emoticons as well as many mores. [Click here](
+   - **Face Loader:** Collections of exciting Loaders consisting of face emoticons. [Click here](src/components/Loader/FaceLoader) to explore more.
+   - **Classic Loader:** Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader) to explore more.
+   - **Sand Watch Loader:** Add an emoticon Sand Watch as a loader to add an unique touch to your loading screen. [Click here](src/components/Loader/GlassWatchLoader) to know more.
+2. **Emoticons:** Collections of Old-School & Classic emoticons as well as many more.
+   - **Classic Emoticons:** Collection of Classic-Old school emoticons. [Click here](src/components/Emoticons/ClassicEmoticon) to explore more.
+   - **Face Emoticons:** Collection of Face emoticons to add a fun & personal touch to your React App. [Click here](src/components/Emoticons/FaceEmoticon) to know more.
