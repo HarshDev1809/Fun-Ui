@@ -28,3 +28,6 @@ export default App;
 
 ### Output :
 ![Face Loader example](assets/gifs/loaders/FaceLoader/FaceLoader1.gif)
+
+## Components
+1.###Loader:###
