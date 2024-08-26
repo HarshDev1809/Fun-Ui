@@ -13,8 +13,8 @@
     - [Classic Loader](#--classic-loader)
     - [Sand Watch Loader](#--sand-watch-loader)
   - [Emoticons](#2-emoticons)
-    - [Classic Emoticons](#classic-emoticons)
-    - [Face Emoticons](#face-emoticons)
+    - [Classic Emoticons](#--classic-emoticons)
+    - [Face Emoticons](#--8face-emoticons)
 - [License](#license)
 - [Contributing](#contributing)
 
@@ -57,7 +57,34 @@ export default App;
 ### 1. Loader:
 A collection of fun Loaders built using emoticons which adds an enjoyable touch to your React application.
 #### - Face Loader:
-Collections of exciting Loaders consisting of face emoticons. [Click here](src/components/Loader/FaceLoader) to explore more.
+Collections of exciting Loaders consisting of face emoticons.
+##### Usage : 
+To use Face Loader component, you can import it from `@moj-ui/fun-ui` and use it in your app. 
+
+You can import `Face Loader` from `@moj-ui/fun-ui` as: 
+
+```javascript
+import { FaceLoader } from '@moj-ui/fun-ui';
+```
+
+Basic usage eg:
+
+```javascript
+import { FaceLoader } from '@moj-ui/fun-ui';
+
+function Demo() {
+  return (
+    <div className="demo">
+      <FaceLoader />
+    </div>
+  );
+}
+
+export default Demo;
+````
+**Output:**
+![Face Loader Basic output gif](assets/gifs/loaders/FaceLoader/FaceLoaderBasic.gif)
+
 #### - Classic Loader:
 Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader) to explore more.
 #### - Sand Watch Loader:
