@@ -15,8 +15,8 @@
   - [Emoticons](#emoticons)
     - [Classic Emoticons](#classic-emoticons)
     - [Face Emoticons](#face-emoticons)
--[License](#license)
--[Contributing](#contributing)
+- [License](#license)
+- [Contributing](#contributing)
 
 
 ## Features
