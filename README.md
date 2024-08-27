@@ -83,7 +83,7 @@ function Demo() {
 }
 
 export default Demo;
-````
+```
 **Output:**
 ![Face Loader Basic output gif](assets/gifs/loaders/FaceLoader/FaceLoaderBasic.gif)
 
@@ -93,8 +93,8 @@ You can use in built attritbutes to customise loader according to your personal 
 1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want.
 
 
-   
-   eg:
+
+  eg:
    
    ```javascript
    import { FaceLoader } from '@moj-ui/fun-ui';
