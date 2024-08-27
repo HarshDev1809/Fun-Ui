@@ -264,7 +264,10 @@ the default style of caption is:
 
 | Variant | Loader | Code | Output |
 |:-------:|:------:|:----:|:------:|
-| 1 | (0_0) - ( 0_0) - (0_0 ) - ( 0_0) |<FaceLoader variant={1} caption = {"Looking for Data..."} /> | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader1.gif) |
+| 1 | (0_0)  |<FaceLoader 
+variant={1} 
+caption = {"Looking for Data..."} 
+/> | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader1.gif) |
 | 2 |
 | 3 |
 | 4 |
