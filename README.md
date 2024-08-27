@@ -90,9 +90,7 @@ export default Demo;
 ##### Customisation:
 You can use in built attritbutes to customise loader according to your personal touch.
 ##### Attributes:
-1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want.
-
-
+1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want. The `default` value is `1`. Choose the index of the loader you want to choose. Click [here](#face-loader-variants) to see the available Face Loaders.
 
   eg:
    
