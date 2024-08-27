@@ -10,6 +10,9 @@
 - [Components](#components)
   - [Loader](#1-loader)
     - [Face Loader](#--face-loader)
+      - [Usage](#usage)
+      - [Customisation](#customisation)
+      - [Variants](#variants)
     - [Classic Loader](#--classic-loader)
     - [Sand Watch Loader](#--sand-watch-loader)
   - [Emoticons](#2-emoticons)
@@ -90,7 +93,7 @@ export default Demo;
 ##### Customisation:
 You can use in built attritbutes to customise loader according to your personal touch.
 ##### Attributes:
-1. **Variant:** You can use `variant` attribute to choose from various Variants available according to you want. The `default` value is `1`. Choose the index of the loader you want to choose. Click [here](#face-loader-variants) to see the available Face Loaders.
+1. **variant:** You can use `variant` attribute to choose from various Variants available according to you want. The `default` value is `1`. Choose the index of the loader you want to choose. Click [here](#face-loader-variants) to see the available Face Loaders.
 
   eg:
    
@@ -108,6 +111,48 @@ You can use in built attritbutes to customise loader according to your personal 
   ```
   Output:
 ![Face Loader gif](assets/gifs/loaders/FaceLoader/FacLoaderUsage1.gif)
+
+2. **time:** You can change the time interval of loader using `time` attribute. The `time` takes time in `ms`. The `default` value is `2000` ms. Remember `1 s = 1000 ms`.
+
+   eg :
+
+  To set time interval to 1 sec.
+
+   ```javascript
+   import { FaceLoader } from '@moj-ui/fun-ui';
+
+   function Demo() {
+     return (
+      <div className="demo" time={1000}>
+        <FaceLoader />
+      </div>
+      );
+    }
+   export default Demo;
+  ```
+
+  Output: 
+  [FaceLoaderDemo1000](assets/gifs/loaders/FaceLoader/FaceLoaderUsage1000.gif)
+
+  To set time interval to 3 sec.
+
+     ```javascript
+   import { FaceLoader } from '@moj-ui/fun-ui';
+
+   function Demo() {
+     return (
+      <div className="demo" time={3000}>
+        <FaceLoader />
+      </div>
+      );
+    }
+   export default Demo;
+  ```
+
+   Output: 
+  [FaceLoaderDemo3000](assets/gifs/loaders/FaceLoader/FaceLoaderUsage3000.gif)
+
+3. **style:** 
 
 #### - Classic Loader:
 Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader) to explore more.
