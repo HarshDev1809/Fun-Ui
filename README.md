@@ -265,14 +265,14 @@ the default style of caption is:
 | Variant | Loader | Output |
 |:-------:|:------:|:------:|
 | 1 | (0_0)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader1.gif) |
-| 2 | (~0_0~) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader2.gif) |
+| 2 | (\~0_0\~) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader2.gif) |
 | 3 | (`*`0_0`*`) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader3.gif) |
 | 4 | ( !0_0) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader4.gif) |
 | 5 | (o_o) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader5.gif) |
 | 6 | (~o_o~) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader6.gif) |
 | 7 | (\*o_o\*) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader7.gif) |
 | 8 | ( !o_o) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader8.gif) |
-| 9 | (O_O) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader1.9if) |
+| 9 | (O_O) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader9.gif) |
 | 10 | (~O_O~) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader10.gif) |
 | 11 | (\*O_O\*) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader11.gif) |
 | 12 | ( !O_O)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader12.gif) |
@@ -307,7 +307,7 @@ the default style of caption is:
 | 41 |(~U.U~)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader41.gif) |
 | 42 |(\*U.U\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader42.gif) |
 | 43 |( !U.U)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader43.gif) |
-| 44 |($_$)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader44.gif) |
+| 44 |(`$`_`$`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader44.gif) |
 | 45 |(X_X)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader45.gif) |
 | 46 |( !X_X)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader46.gif) |
 | 47 |(x_x)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader47.gif) |
