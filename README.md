@@ -706,6 +706,86 @@ the default style of caption is:
 - color : grey
 - size : 0.35em
 
+5. **gap:** You can adjust the gap between loader and caption according to your need using `gap`. `gap` takes a number to adjust the distance in `pixels`.
+
+eg:
+
+To add gap of `30px` between caption and loader, use:
+```javascript
+<SandWatchLoader caption={"Waiting for Data..."} gap={30}/>
+```
+
+Complete example:
+
+```javascript
+import { SandWatchLoader } from "@moj-ui/fun-ui"
+
+function Demo(){
+  return <div className="demo">
+    <SandWatchLoader caption={"Waiting for Data..."} gap={30}/>
+  </div>;
+};
+
+export default Demo;
+
+```
+
+Output:
+
+![SandWatchLoadergif]
+
+6. **offSet:** Sometimes loader can be a little asymmetric. Use `offSet` attribute to adjust the loader to be in center. `offSet` takes number to adjust the loader. Default value is `0`.
+
+eg:
+
+c
+
+To adjust the above loader to align with the caption, use `offset` attribute.
+
+```javascript
+<SandWatchLoader caption={"Waiting for Data..."} offSet={20} gap={30}/>
+```
+
+output : 
+![SandWatchLoadergif]
+
+Complete code:
+
+```javascript
+import { SandWatchLoader } from "@moj-ui/fun-ui"
+
+function Demo(){
+  return <div className="demo">
+    <SandWatchLoader caption={"Waiting for Data..."} offSet={20} gap={30}/>
+  </div>;
+};
+
+export default Demo;
+
+```
+
+##### Variant:
+
+| Variant | Loader | Output |
+|:-------:|:------:|:------:|
+| 1 | `|`>=<`|` | gif |
+| 2 | [>=<]| gif |
+| 3 | ]>=<[| gif |
+| 4 | I>=<I| gif |
+| 5 | >=<| gif |
+| 6 | `|`}={`|`| gif |
+| 7 | [}={]| gif |
+| 8 | }={| gif |
+| 9 | `|`>-<`|`| gif |
+| 10 | [>-<]| gif |
+| 11 | ]>-<[| gif |
+| 12 | I>-<I| gif |
+| 13 | >-<| gif |
+| 14 | |}-{|| gif |
+| 15 | [}-{]| gif |
+| 16 | }-{| gif |
+
+
 
 ### 2. Emoticons:
 
