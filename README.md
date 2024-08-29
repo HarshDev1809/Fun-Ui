@@ -266,64 +266,63 @@ the default style of caption is:
 
 ##### Variants
 
-| Variant | Loader | Output |
-|:-------:|:------:|:------:|
-| 1 | (0_0)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader1.gif) |
-| 2 | (`~`0_0`~`) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader2.gif) |
-| 3 | (`*`0_0`*`) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader3.gif) |
-| 4 | ( !0_0) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader4.gif) |
-| 5 | (o_o) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader5.gif) |
-| 6 | (`~`o_o`~`) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader6.gif) |
-| 7 | (\*o_o\*) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader7.gif) |
-| 8 | ( !o_o) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader8.gif) |
-| 9 | (O_O) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader9.gif) |
-| 10 | (`~`O_O`~`) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader10.gif) |
-| 11 | (\*O_O\*) |![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader11.gif) |
-| 12 | ( !O_O)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader12.gif) |
-| 13 | (^_^)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader13.gif) |
-| 14 | (`~`^_^`~`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader14.gif) |
-| 15 | (\*^_^\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader15.gif) |
-| 16 | ( !^_^)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader16.gif) |
-| 17 | (^.^)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader17.gif) |
-| 18 |(`~`^.^`~`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader18.gif) |
-| 19 |(\*^.^\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader19.gif) |
-| 20 |( !^.^)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader20.gif) |
-| 21 | (-_-)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader21.gif) |
-| 22 |( !-_-)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader22.gif) |
-| 23 |(T_T)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader23.gif) |
-| 24 |(\*_\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader24.gif) |
-| 25 |(\*o\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader25.gif) |
-| 26 |(\*.\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader26.gif) |
-| 27 |(>_<)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader27.gif) |
-| 28 |("_")|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader28.gif) |
-| 29 |( !"_")|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader29.gif) |
-| 30 |(=_=)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader30.gif) |
-| 31 |( !=_=)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader31.gif) |
-| 32 |(U_U)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader32.gif) |
-| 33 |(`~`U_U`~`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader33.gif) |
-| 34 |(\*U_U\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader34.gif) |
-| 35 |( !U_U)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader35.gif) |
-| 36 |(V_V)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader36.gif) |
-| 37 |(`~`V_V`~`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader37.gif) |
-| 38 |(\*V_V\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader38.gif) |
-| 39 |( !V_V)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader39.gif) |
-| 40 |(U.U)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader40.gif) |
-| 41 |(`~`U.U`~`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader41.gif) |
-| 42 |(\*U.U\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader42.gif) |
-| 43 |( !U.U)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader43.gif) |
-| 44 |(`$`_`$`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader44.gif) |
-| 45 |(X_X)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader45.gif) |
-| 46 |( !X_X)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader46.gif) |
-| 47 |(x_x)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader47.gif) |
-| 48 |( !x_x)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader48.gif) |
-| 49 |(+_+)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader49.gif) |
-| 50 |( !+_+)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader50.gif) |
-| 51 |('_')|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader51.gif) |
-| 52 |(`~`'_'`~`)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader52.gif) |
-| 53 |(\*'_'\*)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader53.gif) |
-| 54 |( !'_')|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader54.gif) |
-| 55 | (O_O) - (-_-)|![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader55.gif) |
-
+| Variant |    Loader     |                              Output                              |
+| :-----: | :-----------: | :--------------------------------------------------------------: |
+|    1    |     (0_0)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader1.gif)  |
+|    2    |  (`~`0_0`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader2.gif)  |
+|    3    |  (`*`0_0`*`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader3.gif)  |
+|    4    |    ( !0_0)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader4.gif)  |
+|    5    |     (o_o)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader5.gif)  |
+|    6    |  (`~`o_o`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader6.gif)  |
+|    7    |   (\*o_o\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader7.gif)  |
+|    8    |    ( !o_o)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader8.gif)  |
+|    9    |     (O_O)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader9.gif)  |
+|   10    |  (`~`O_O`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader10.gif) |
+|   11    |   (\*O_O\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader11.gif) |
+|   12    |    ( !O_O)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader12.gif) |
+|   13    |    (^\_^)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader13.gif) |
+|   14    | (`~`^\_^`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader14.gif) |
+|   15    |  (\*^\_^\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader15.gif) |
+|   16    |   ( !^\_^)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader16.gif) |
+|   17    |     (^.^)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader17.gif) |
+|   18    |  (`~`^.^`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader18.gif) |
+|   19    |   (\*^.^\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader19.gif) |
+|   20    |    ( !^.^)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader20.gif) |
+|   21    |    (-\_-)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader21.gif) |
+|   22    |   ( !-\_-)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader22.gif) |
+|   23    |     (T_T)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader23.gif) |
+|   24    |   (\*\_\*)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader24.gif) |
+|   25    |    (\*o\*)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader25.gif) |
+|   26    |    (\*.\*)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader26.gif) |
+|   27    |    (>\_<)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader27.gif) |
+|   28    |    ("\_")     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader28.gif) |
+|   29    |   ( !"\_")    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader29.gif) |
+|   30    |    (=\_=)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader30.gif) |
+|   31    |   ( !=\_=)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader31.gif) |
+|   32    |     (U_U)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader32.gif) |
+|   33    |  (`~`U_U`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader33.gif) |
+|   34    |   (\*U_U\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader34.gif) |
+|   35    |    ( !U_U)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader35.gif) |
+|   36    |     (V_V)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader36.gif) |
+|   37    |  (`~`V_V`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader37.gif) |
+|   38    |   (\*V_V\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader38.gif) |
+|   39    |    ( !V_V)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader39.gif) |
+|   40    |     (U.U)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader40.gif) |
+|   41    |  (`~`U.U`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader41.gif) |
+|   42    |   (\*U.U\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader42.gif) |
+|   43    |    ( !U.U)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader43.gif) |
+|   44    |  (`$`\_`$`)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader44.gif) |
+|   45    |     (X_X)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader45.gif) |
+|   46    |    ( !X_X)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader46.gif) |
+|   47    |     (x_x)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader47.gif) |
+|   48    |    ( !x_x)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader48.gif) |
+|   49    |    (+\_+)     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader49.gif) |
+|   50    |   ( !+\_+)    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader50.gif) |
+|   51    |    ('\_')     | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader51.gif) |
+|   52    | (`~`'\_'`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader52.gif) |
+|   53    |  (\*'\_'\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader53.gif) |
+|   54    |   ( !'\_')    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader54.gif) |
+|   55    | (O*O) - (-*-) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader55.gif) |
 
 #### - Classic Loader:
 
@@ -514,7 +513,6 @@ the default style of caption is:
 
 - color : grey
 - size : 0.35em
-
 
 #### - Sand Watch Loader:
 
@@ -711,23 +709,25 @@ the default style of caption is:
 eg:
 
 To add gap of `30px` between caption and loader, use:
+
 ```javascript
-<SandWatchLoader caption={"Waiting for Data..."} gap={30}/>
+<SandWatchLoader caption={"Waiting for Data..."} gap={30} />
 ```
 
 Complete example:
 
 ```javascript
-import { SandWatchLoader } from "@moj-ui/fun-ui"
+import { SandWatchLoader } from "@moj-ui/fun-ui";
 
-function Demo(){
-  return <div className="demo">
-    <SandWatchLoader caption={"Waiting for Data..."} gap={30}/>
-  </div>;
-};
+function Demo() {
+  return (
+    <div className="demo">
+      <SandWatchLoader caption={"Waiting for Data..."} gap={30} />
+    </div>
+  );
+}
 
 export default Demo;
-
 ```
 
 Output:
@@ -738,62 +738,59 @@ Output:
 
 eg:
 
-c
-
 To adjust the above loader to align with the caption, use `offset` attribute.
 
 ```javascript
-<SandWatchLoader caption={"Waiting for Data..."} offSet={20} gap={30}/>
+<SandWatchLoader caption={"Waiting for Data..."} offSet={20} gap={30} />
 ```
 
-output : 
+output :
 ![SandWatchLoadergif]
 
 Complete code:
 
 ```javascript
-import { SandWatchLoader } from "@moj-ui/fun-ui"
+import { SandWatchLoader } from "@moj-ui/fun-ui";
 
-function Demo(){
-  return <div className="demo">
-    <SandWatchLoader caption={"Waiting for Data..."} offSet={20} gap={30}/>
-  </div>;
-};
+function Demo() {
+  return (
+    <div className="demo">
+      <SandWatchLoader caption={"Waiting for Data..."} offSet={20} gap={30} />
+    </div>
+  );
+}
 
 export default Demo;
-
 ```
 
 ##### Variant:
 
-| Variant | Loader | Output |
-|:-------:|:------:|:------:|
-| 1 | \|>=<\| | gif |
-| 2 | [>=<]| gif |
-| 3 | ]>=<[| gif |
-| 4 | I>=<I| gif |
-| 5 | >=<| gif |
-| 6 | \|}={\|| gif |
-| 7 | [}={]| gif |
-| 8 | }={| gif |
-| 9 | \|>-<\|| gif |
-| 10 | [>-<]| gif |
-| 11 | ]>-<[| gif |
-| 12 | I>-<I| gif |
-| 13 | >-<| gif |
-| 14 | \|}-{\|| gif |
-| 15 | [}-{]| gif |
-| 16 | }-{| gif |
-
-
+| Variant | Loader  | Output |
+| :-----: | :-----: | :----: |
+|    1    | \|>=<\| |  gif   |
+|    2    |  [>=<]  |  gif   |
+|    3    |  ]>=<[  |  gif   |
+|    4    |  I>=<I  |  gif   |
+|    5    |   >=<   |  gif   |
+|    6    | \|}={\| |  gif   |
+|    7    |  [}={]  |  gif   |
+|    8    |   }={   |  gif   |
+|    9    | \|>-<\| |  gif   |
+|   10    |  [>-<]  |  gif   |
+|   11    |  ]>-<[  |  gif   |
+|   12    |  I>-<I  |  gif   |
+|   13    |   >-<   |  gif   |
+|   14    | \|}-{\| |  gif   |
+|   15    |  [}-{]  |  gif   |
+|   16    |   }-{   |  gif   |
 
 ### 2. Emoticons:
 
-Collections of Old-School & Classic emoticons as well as many more.
+Collections of Old-School & Classic emoticons as well as many more. You can choose from many classic as well as fun emoticons to make your React App fun and interactive.
 
 #### - Classic Emoticons:
 
-Collection of Classic-Old school emoticons. [Click here](src/components/Emoticons/ClassicEmoticon) to explore more.
+Collection of Classic-Old school emoticons.
 
 #### - Face Emoticons:
 
