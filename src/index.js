@@ -8,9 +8,15 @@
 import ClassicEmoticon from "./components/Emoticons/ClassicEmoticon/ClassicEmoticon";
 import FaceEmoticon from "./components/Emoticons/FaceEmoticon/FaceEmoticon";
 import FaceLoader from "./components/Loader/FaceLoader/FaceLoader";
-import GlassWatchLoader from "./components/Loader/GlassWatchLoader/GlassWatchLoader";
+import SandWatchLoader from "./components/Loader/SandWatchLoader/SandWatchLoader";
 import ClassicLoader from "./components/Loader/ClassicLoader/ClassicLoader";
 
-export { ClassicEmoticon, FaceEmoticon ,GlassWatchLoader, FaceLoader,ClassicLoader};
+export {
+  ClassicEmoticon,
+  FaceEmoticon,
+  SandWatchLoader,
+  FaceLoader,
+  ClassicLoader,
+};
 
 // export default Hug

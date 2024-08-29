@@ -23,7 +23,7 @@
       - [Variants](#variants)
   - [Emoticons](#2-emoticons)
     - [Classic Emoticons](#--classic-emoticons)
-    - [Face Emoticons](#--8face-emoticons)
+    - [Face Emoticons](#--face-emoticons)
 - [License](#license)
 - [Contributing](#contributing)
 
@@ -80,9 +80,7 @@ Collections of exciting Loaders consisting of face emoticons.
 
 ##### Usage:
 
-To use Face Loader component, you can import it from `@moj-ui/fun-ui` and use it in your app.
-
-You can import `Face Loader` from `@moj-ui/fun-ui` as:
+To use Face Loader component, you can import `<FaceLoader />` from `@moj-ui/fun-ui` and use it in your app.
 
 ```javascript
 import { FaceLoader } from "@moj-ui/fun-ui";
@@ -329,11 +327,385 @@ the default style of caption is:
 
 #### - Classic Loader:
 
-Collection of Classic Loaders built using Emoticons. [Click here](src/components/Loader/CLassicLoader) to explore more.
+Collection of Classic Loaders built using Emoticons.
+
+##### Usage
+
+To use Classic Loader component, you can import `<ClassicLoader />` from `@moj-ui/fun-ui` and use it in your app.
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+```
+
+Basic usage eg:
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader />
+    </div>
+  );
+}
+
+export default Demo;
+```
+
+**Output:**
+![Classic Loader Basic output gif](assets/gifs/loaders/FaceLoader/FaceLoaderBasic.gif)
+
+##### Customisation:
+
+You can use in built attritbutes to customise loader according to your personal touch.
+
+###### Attributes:
+
+1. **variant:** You can use `variant` attribute to choose from various Variants available according to you want. The `default` value is `1`. Choose the index of the loader you want to choose. Click [here](#classic-loader-variants) to see the available Face Loaders.
+
+eg:
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader variant={1} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+![Face Loader gif](assets/gifs/loaders/FaceLoader/FacLoaderUsage1.gif)
+
+2. **time:** You can change the time interval of loader using `time` attribute. The `time` takes time in `ms`. The `default` value is `2000` ms. Remember `1 s = 1000 ms`.
+
+eg :
+
+To set time interval to 1 sec.
+
+```javascript
+import { Classicloader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader time={1000} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemo1000](assets/gifs/loaders/FaceLoader/FaceLoaderUsage1000.gif)
+
+To set time interval to 3 sec.
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader time={3000} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemo3000](assets/gifs/loaders/FaceLoader/FaceLoaderUsage3000.gif)
+
+3. **style:** you can use custom CSS according to you need.
+
+eg:
+
+To increase the size & colour of the loader, you can pass an object in `style` attribute.
+
+```javascript
+const newStyle = {
+  color: "green", // To change the color to green.
+  fontSize: "6em", // To change the size of Loader to 6em.
+};
+```
+
+Complete Code :
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  const newStyle = {
+    color: "green",
+    fontSize: "6em",
+  };
+
+  return (
+    <div className="demo">
+      <ClassicLoader style={newStyle} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemoStyle](assets/gifs/loaders/FaceLoader/FaceLoaderUsageStyle.gif)
+
+The Default `style` is:
+
+- color : grey
+- size : 4rem
+
+4. **caption:** You can add a caption to you loader to make it even more personal.
+
+eg:
+
+To add caption `Waiting...`
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader caption={"Waiting..."} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemoCaption](assets/gifs/loaders/FaceLoader/FaceLoader1.gif)
+
+The default value of `caption` is `none`.
+
+you can use `captionStyle` property to customise caption according to your need.
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  const newStyle = {
+    color: "green",
+    fontSize: "2em",
+  };
+
+  return (
+    <div className="demo">
+      <ClassicLoader caption={"Waiting..."} captionStyle={newStyle} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemoCaptionStyle](assets/gifs/loaders/FaceLoader/FaceLoaderCaptionStyle.gif)
+
+the default style of caption is:
+
+- color : grey
+- size : 0.35em
+
 
 #### - Sand Watch Loader:
 
 Add an emoticon Sand Watch as a loader to add an unique touch to your loading screen. [Click here](src/components/Loader/GlassWatchLoader) to know more.
+
+##### Usage
+
+To use Classic Loader component, you can import `<ClassicLoader />` from `@moj-ui/fun-ui` and use it in your app.
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+```
+
+Basic usage eg:
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader />
+    </div>
+  );
+}
+
+export default Demo;
+```
+
+**Output:**
+![Classic Loader Basic output gif](assets/gifs/loaders/FaceLoader/FaceLoaderBasic.gif)
+
+##### Customisation:
+
+You can use in built attritbutes to customise loader according to your personal touch.
+
+###### Attributes:
+
+1. **variant:** You can use `variant` attribute to choose from various Variants available according to you want. The `default` value is `1`. Choose the index of the loader you want to choose. Click [here](#classic-loader-variants) to see the available Face Loaders.
+
+eg:
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader variant={1} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+![Face Loader gif](assets/gifs/loaders/FaceLoader/FacLoaderUsage1.gif)
+
+2. **time:** You can change the time interval of loader using `time` attribute. The `time` takes time in `ms`. The `default` value is `2000` ms. Remember `1 s = 1000 ms`.
+
+eg :
+
+To set time interval to 1 sec.
+
+```javascript
+import { Classicloader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader time={1000} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemo1000](assets/gifs/loaders/FaceLoader/FaceLoaderUsage1000.gif)
+
+To set time interval to 3 sec.
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader time={3000} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemo3000](assets/gifs/loaders/FaceLoader/FaceLoaderUsage3000.gif)
+
+3. **style:** you can use custom CSS according to you need.
+
+eg:
+
+To increase the size & colour of the loader, you can pass an object in `style` attribute.
+
+```javascript
+const newStyle = {
+  color: "green", // To change the color to green.
+  fontSize: "6em", // To change the size of Loader to 6em.
+};
+```
+
+Complete Code :
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  const newStyle = {
+    color: "green",
+    fontSize: "6em",
+  };
+
+  return (
+    <div className="demo">
+      <ClassicLoader style={newStyle} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemoStyle](assets/gifs/loaders/FaceLoader/FaceLoaderUsageStyle.gif)
+
+The Default `style` is:
+
+- color : grey
+- size : 4rem
+
+4. **caption:** You can add a caption to you loader to make it even more personal.
+
+eg:
+
+To add caption `Waiting for Data...`
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicLoader caption={"Waiting for Data..."} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemoCaption](assets/gifs/loaders/FaceLoader/FaceLoader1.gif)
+
+The default value of `caption` is `none`.
+
+you can use `captionStyle` property to customise caption according to your need.
+
+```javascript
+import { ClassicLoader } from "@moj-ui/fun-ui";
+
+function Demo() {
+  const newStyle = {
+    color: "green",
+    fontSize: "2em",
+  };
+
+  return (
+    <div className="demo">
+      <ClassicLoader caption={"Waiting for Data..."} captionStyle={newStyle} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+Output:
+[FaceLoaderDemoCaptionStyle](assets/gifs/loaders/FaceLoader/FaceLoaderCaptionStyle.gif)
+
+the default style of caption is:
+
+- color : grey
+- size : 0.35em
+
 
 ### 2. Emoticons:
 

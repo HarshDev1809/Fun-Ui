@@ -15,4 +15,9 @@ const loaderCaptionDefaultStyle = {
     color : "grey"
 }
 
-export {emoticonDefaultStyle, loaderDefaultStyle, loaderCaptionDefaultStyle}
+const sandWatchLoaderCaptionDefaultStyle = {
+    fontSize : "1em",
+    color : "grey"
+}
+
+export {emoticonDefaultStyle, loaderDefaultStyle, loaderCaptionDefaultStyle, sandWatchLoaderCaptionDefaultStyle}
