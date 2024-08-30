@@ -322,7 +322,7 @@ the default style of caption is:
 |   52    | (`~`'\_'`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader52.gif) |
 |   53    |  (\*'\_'\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader53.gif) |
 |   54    |   ( !'\_')    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader54.gif) |
-|   55    | (O_O) - (-_-) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader55.gif) |
+|   55    | (O*O) - (-*-) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader55.gif) |
 
 #### - Classic Loader:
 
@@ -786,11 +786,133 @@ export default Demo;
 
 ### 2. Emoticons:
 
-Collections of Old-School & Classic emoticons as well as many more. You can choose from many classic as well as fun emoticons to make your React App fun and interactive.
+Collections of Classic emoticons as well as many more. You can choose from many classic as well as fun emoticons to make your React App fun and interactive.
 
 #### - Classic Emoticons:
 
-Collection of Classic-Old school emoticons.
+Collection of Classic emoticons.
+
+##### Usage:
+
+To use Classic Emoticons, you can import `<ClassicEmoticon />` from `@moj-ui/fun-ui` and use it in your app.
+
+```javascript
+import { ClassicEmoticon } from "@moj-ui/fun-ui";
+```
+
+Basic usage eg:
+
+```javascript
+import { ClassicEmoticon } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicEmoticon />
+    </div>
+  );
+}
+
+export default Demo;
+```
+Output:
+[gif]
+
+##### Customisation:
+
+You can use in-built attributes to customise the emoticons according to your personal touch.
+
+###### Attributes:
+
+ 1. **variant:** You can use `variant` attribute to choose from various emoticons available. The `default` value is `1`. Choose the index of the emoticon you want to choose. Click [here](#variants) to see the available emoticons.
+
+ eg:
+
+ To use the emoticon `:D`, use index `35` in `variant` attribute.
+
+ ```javascript
+ <ClassicEmoticon variant={35}>
+```
+ Output:
+ [gif]
+
+```javascript
+import { ClassicEmoticon } from "@moj-ui/fun-ui";
+
+function Demo() {
+  return (
+    <div className="demo">
+      <ClassicEmoticon variant={35}/>
+    </div>
+  );
+}
+
+export default Demo;
+```
+
+2. **style:** You can use custom CSS according to your need.
+
+eg:
+
+To increase the size & colour of the emoticon, you can pass an object in style attribute.
+
+```javascript
+const newStyle = {
+  color: "green", // To change the color to green.
+  fontSize: "6em", // To change the size of emoticon to 6em.
+};
+```
+
+output:
+[gif]
+
+Complete eg:
+
+```javascript
+import { ClassicEmoticon } from "@moj-ui/fun-ui";
+
+function Demo() {
+  const newStyle = {
+    color: "green",
+    fontSize: "6em",
+  };
+
+  return (
+    <div className="demo">
+      <ClassicEmoticon style={newStyle} />
+    </div>
+  );
+}
+export default Demo;
+```
+
+##### Varianst
+| Variant | Loader  | Output |
+| :-----: | :-----: | :----: |
+|    1    | :-) |  gif   |
+|    1    | :^) |  gif   |
+|    1    | ^_^ |  gif   |
+|    1    | (^ ^) |  gif   |
+|    1    | :,-) |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+|    1    | \|>=<\| |  gif   |
+
 
 #### - Face Emoticons:
 

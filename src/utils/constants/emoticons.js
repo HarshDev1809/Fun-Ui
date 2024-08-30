@@ -33,6 +33,7 @@ const classicEmoticons = {
   32: "=-O",
   33: ":0",
   34: "*\0/*",
+  35: ":D"
 };
 
 const faceEmoticons = {
