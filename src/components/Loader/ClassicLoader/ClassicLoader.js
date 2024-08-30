@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { classicLoader } from "../../../utils/constants/loader";
 import { loaderDefaultStyle } from "../../../utils/constants/defaultStyle";
 import { invalidVariant } from "../../../utils/helperFunctions/errors";
 import { loaderCaptionDefaultStyle } from "../../../utils/constants/defaultStyle";
 
-function ClassicLoader({ style, time, variant,caption, captionStyle }) {
+function ClassicLoader({ style, time, variant, caption, captionStyle }) {
   if (!variant) {
     variant = 1;
   }
@@ -13,12 +13,12 @@ function ClassicLoader({ style, time, variant,caption, captionStyle }) {
     time = 2000;
   }
 
-  invalidVariant(variant,Object.keys(classicLoader));
+  invalidVariant(variant, Object.keys(classicLoader));
 
   const finalStyle = { ...loaderDefaultStyle, ...style };
   const loaderArray = classicLoader[variant];
   const [loader, setLoader] = useState(loaderArray[0]);
-  const captionFinalStyle = {...loaderCaptionDefaultStyle, ...captionStyle}
+  const captionFinalStyle = { ...loaderCaptionDefaultStyle, ...captionStyle };
 
   const showLoader = () => {
     let value = 0;
@@ -36,13 +36,13 @@ function ClassicLoader({ style, time, variant,caption, captionStyle }) {
     return intervalId;
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     const intervalId = showLoader();
 
-    return ()=>{
-        clearInterval(intervalId);
-    }
-  },[])
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
 
   return (
     <div className="classic-loader" style={finalStyle}>

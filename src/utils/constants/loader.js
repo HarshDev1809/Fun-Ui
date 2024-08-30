@@ -80,6 +80,9 @@ const faceLoader = {
 
 const classicLoader = {
   1: ["|", "/", "---", "\\", "|"],
+  2: ["*----","-*---","--*--","---*-","----*"],
+  3: ["Ooooo","oOooo","ooOoo","oooOo","ooooO"],
+  4 : ["^----","-^---","--^--","---^-","----^"]
 };
 
 const sandWatchLoader = {
