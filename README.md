@@ -322,7 +322,7 @@ the default style of caption is:
 |   52    | (`~`'\_'`~`)  | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader52.gif) |
 |   53    |  (\*'\_'\*)   | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader53.gif) |
 |   54    |   ( !'\_')    | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader54.gif) |
-|   55    | (O*O) - (-*-) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader55.gif) |
+|   55    | (O_O) - (-_-) | ![FaceLoader1](assets/gifs//loaders/FaceLoader/FaceLoader55.gif) |
 
 #### - Classic Loader:
 
